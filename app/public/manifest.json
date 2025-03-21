@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "CodeSmart",
+    "version": "1.0.0",
+    "description": "AI-powered LeetCode assistant with real-time hints, visualizations, and collaboration.",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "storage"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://leetcode.com/problems/*"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }

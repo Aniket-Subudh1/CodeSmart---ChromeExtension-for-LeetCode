@@ -1,0 +1,21 @@
+# Node.js
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Next.js
+app/.next/
+app/out/
+
+# Extension
+extension/build/
+
+# Environment
+.env.local
+.env.production
+
+# Logs
+*.log
+
+# Docker
+docker-compose.yml

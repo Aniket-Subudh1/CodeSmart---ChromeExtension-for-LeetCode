@@ -1,0 +1,12 @@
+
+{
+  "name": "codesmart-root",
+  "version": "1.0.0",
+  "description": "Root package for CodeSmart project",
+  "scripts": {
+    "build-extension": "bash scripts/build-extension.sh",
+    "deploy": "bash scripts/deploy.sh"
+  },
+  "author": "",
+  "license": "MIT"
+}
